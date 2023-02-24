@@ -19,7 +19,13 @@ h2 {
     line-height: 1.5;
 }
 
+.title-image-div {
+    /* The CSS documentation states that absolute positioning sets the element relative to the closest positioned ancestor, which in this case the div containing the image, and positioned means anything besides static, hence absolute or relative. If the ancestor is not positioned, image is absolute positioned related to next positioned ancestor, and that is body, result is a huge width of 60% of the whole body. */
+    position: relative;
+}
+
 .container-fluid {
+    /* top-and-bottom \ left-and-right */
     padding: 3% 15%;
 }
 
@@ -52,13 +58,17 @@ h2 {
 
 /* title image */
 .title-image {
-    width: 60%;
+    max-width: 60%;
     transform: rotate(25deg);
+    position: absolute; 
 }
 
 /* features */
 #features {
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
 }
 
 .features-icon {
