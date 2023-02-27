@@ -144,6 +144,21 @@ h2 {
     padding: 3% 2%;
 }
 
+/* call to action */
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 100px;
+}
+
+.cta-title {
+    padding: 20px;
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
 /* media query */
 
 @media (max-width: 575px) {
@@ -154,5 +169,9 @@ h2 {
 
     #title {
         text-align: center;
+    }
+
+    .cta-title {
+        font-size: 2.5rem;
     }
 }
