@@ -19,6 +19,9 @@ h2 {
     line-height: 1.5;
 }
 
+h3 {
+    font-family: "Montserrat-Bold";
+}
 
 .title-image-div {
     /* The CSS documentation states that absolute positioning sets the element relative to the closest positioned ancestor, 
@@ -139,6 +142,7 @@ h2 {
 
 #pricing {
     padding: 100px;
+    text-align: center;
 }
 
 .pricing-column {
