@@ -19,6 +19,7 @@ h2 {
     line-height: 1.5;
 }
 
+
 .title-image-div {
     /* The CSS documentation states that absolute positioning sets the element relative to the closest positioned ancestor, 
     which in this case the div containing the image, 
@@ -148,7 +149,8 @@ h2 {
 #cta {
     background-color: #ff4c68;
     text-align: center;
-    padding: 100px;
+    /* padding: 100px; */
+    padding: 7% 15%;
 }
 
 .cta-title {
@@ -157,6 +159,24 @@ h2 {
     font-size: 3.5rem;
     line-height: 1.5;
     color: white;
+}
+
+/* footer */
+#footer {
+    /* padding: 100px; */
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.footer-icon {
+    padding: 10px;
+}
+
+.footer-legal {
+    font-weight: 900;
+    text-align: center;
+    color: gray;
+    margin-top: 20px;
 }
 
 /* media query */
