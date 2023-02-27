@@ -20,7 +20,12 @@ h2 {
 }
 
 .title-image-div {
-    /* The CSS documentation states that absolute positioning sets the element relative to the closest positioned ancestor, which in this case the div containing the image, and positioned means anything besides static, hence absolute or relative. If the ancestor is not positioned, image is absolute positioned related to next positioned ancestor, and that is body, result is a huge width of 60% of the whole body. */
+    /* The CSS documentation states that absolute positioning sets the element relative to the closest positioned ancestor, 
+    which in this case the div containing the image, 
+    and positioned means anything besides static, hence absolute or relative. 
+    If the ancestor is not positioned, 
+    image is absolute positioned related to next positioned ancestor, and that is body, 
+    result is a huge width of 60% of the whole body. */
     position: relative;
     height: 200px;
 }
