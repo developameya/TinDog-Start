@@ -27,7 +27,7 @@ h2 {
     image is absolute positioned related to next positioned ancestor, and that is body, 
     result is a huge width of 60% of the whole body. */
     position: relative;
-    height: 200px;
+    /* height: 200px; */
 }
 
 .container-fluid {
@@ -142,4 +142,17 @@ h2 {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+/* media query */
+
+@media (max-width: 575px) {
+    .title-image {
+        transform: rotate(0);
+        position: static;
+    }
+
+    #title {
+        text-align: center;
+    }
 }
